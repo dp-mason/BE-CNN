@@ -70,4 +70,4 @@ for i in tqdm(range(len(pics))):
     
     cv2.imwrite('./results_816/'+pure_name+'_becnn_816.png',imc)
         
-    print time.time()-starttime    
+    print(time.time()-starttime)
